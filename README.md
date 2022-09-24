@@ -1,10 +1,16 @@
 # 3Analytics
 
 DataBase used : SQL
+
+
 Language : python
+
+
 Framewok:Django
 
 Prev Blogs related to Django: 
+
+
 https://bhavani-shanker.medium.com/detailed-jwt-1929b1a24136
 
 
