@@ -18,23 +18,28 @@
 							"urlencoded": [
 								{
 									"key": "name",
-									"value": "abc@gmail.com",
-									"type": "default"
+									"value": "shan",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "abc1@gmail.com",
+									"type": "text"
 								},
 								{
 									"key": "phone",
-									"value": "123",
-									"type": "default"
+									"value": "9012345678",
+									"type": "text"
 								},
 								{
 									"key": "password",
-									"value": "123",
-									"type": "default"
+									"value": "123456",
+									"type": "text"
 								}
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/users/create_user/",
+							"raw": "http://127.0.0.1:8000/api/users/create_user",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -46,8 +51,7 @@
 							"path": [
 								"api",
 								"users",
-								"create_user",
-								""
+								"create_user"
 							]
 						}
 					},
@@ -63,18 +67,18 @@
 							"urlencoded": [
 								{
 									"key": "email",
-									"value": "shankerb.u@gmwwwail.wcom1",
+									"value": "abc1@gmail.com",
 									"type": "default"
 								},
 								{
 									"key": "password",
-									"value": "123",
+									"value": "123456",
 									"type": "default"
 								}
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/users/login_user/",
+							"raw": "http://127.0.0.1:8000/api/users/login_user",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -86,8 +90,7 @@
 							"path": [
 								"api",
 								"users",
-								"login_user",
-								""
+								"login_user"
 							]
 						}
 					},
@@ -105,12 +108,12 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY0MDQwOTY2LCJpYXQiOjE2NjQwNDA0MjYsImp0aSI6IjgzOTk2MzZlNWU3YjQ2ZmZhZWQ3NTJmNjZmZDBkZDdlIiwidXNlcl9pZCI6M30.oIHof9U43mQ7QjwSlaFnjvGjxyvtTaO6-rzry9thVgc",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY0MDQzMTIxLCJpYXQiOjE2NjQwNDI1ODEsImp0aSI6ImM3MjNkYTM3N2FlMTRhNzRiMWQ4NjE5NjZiMDBhYTcxIiwidXNlcl9pZCI6NH0.-VDjESUAu57XLlxT-VCdMtCkxdSniwJOidYEC-EqzdQ",
 								"type": "default"
 							}
 						],
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/users/user_profile/",
+							"raw": "http://127.0.0.1:8000/api/users/user_profile",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -122,8 +125,7 @@
 							"path": [
 								"api",
 								"users",
-								"user_profile",
-								""
+								"user_profile"
 							]
 						}
 					},
@@ -144,12 +146,12 @@
 							"urlencoded": [
 								{
 									"key": "name",
-									"value": "sport",
+									"value": "swimming",
 									"type": "default"
 								},
 								{
 									"key": "self_category",
-									"value": "",
+									"value": "1,2",
 									"description": "empty/ primary keys",
 									"type": "default"
 								},
@@ -162,7 +164,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/inventory/getcategory/",
+							"raw": "http://127.0.0.1:8000/api/inventory/getcategory",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -174,8 +176,7 @@
 							"path": [
 								"api",
 								"inventory",
-								"getcategory",
-								""
+								"getcategory"
 							]
 						}
 					},
@@ -213,7 +214,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/inventory/getcategory/",
+							"raw": "http://127.0.0.1:8000/api/inventory/getcategory",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -225,8 +226,7 @@
 							"path": [
 								"api",
 								"inventory",
-								"getcategory",
-								""
+								"getcategory"
 							]
 						}
 					},
@@ -242,24 +242,24 @@
 							"urlencoded": [
 								{
 									"key": "id",
-									"value": "15",
+									"value": "17",
 									"type": "default"
 								},
 								{
 									"key": "name",
-									"value": "sports updated",
+									"value": "sports swimming",
 									"type": "default"
 								},
 								{
 									"key": "self_category",
-									"value": "12,14",
+									"value": "16,4",
 									"description": "category ids seperated by ,",
 									"type": "default"
 								}
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/inventory/getcategory/",
+							"raw": "http://127.0.0.1:8000/api/inventory/getcategory",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -271,8 +271,7 @@
 							"path": [
 								"api",
 								"inventory",
-								"getcategory",
-								""
+								"getcategory"
 							]
 						}
 					},
@@ -288,7 +287,7 @@
 							"urlencoded": [
 								{
 									"key": "id",
-									"value": "12,14",
+									"value": "3",
 									"description": "can delete single record and multiple records 1 or 1,2,3,4",
 									"type": "default"
 								},
@@ -307,7 +306,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/inventory/getcategory/",
+							"raw": "http://127.0.0.1:8000/api/inventory/getcategory",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -319,8 +318,7 @@
 							"path": [
 								"api",
 								"inventory",
-								"getcategory",
-								""
+								"getcategory"
 							]
 						}
 					},
@@ -341,12 +339,12 @@
 							"urlencoded": [
 								{
 									"key": "name",
-									"value": "glucouse",
+									"value": "vicks",
 									"type": "default"
 								},
 								{
 									"key": "price",
-									"value": "40",
+									"value": "10",
 									"type": "default"
 								},
 								{
@@ -358,7 +356,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/inventory/getproducts/",
+							"raw": "http://127.0.0.1:8000/api/inventory/getproducts",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -370,8 +368,7 @@
 							"path": [
 								"api",
 								"inventory",
-								"getproducts",
-								""
+								"getproducts"
 							]
 						}
 					},
@@ -391,8 +388,8 @@
 								{
 									"key": "id",
 									"value": "",
-									"description": "can delete single record and multiple records 1 or 1,2,3,4",
-									"type": "default"
+									"type": "default",
+									"disabled": true
 								},
 								{
 									"key": "",
@@ -409,7 +406,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/inventory/getproducts/",
+							"raw": "http://127.0.0.1:8000/api/inventory/getproducts",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -421,8 +418,7 @@
 							"path": [
 								"api",
 								"inventory",
-								"getproducts",
-								""
+								"getproducts"
 							]
 						}
 					},
@@ -438,25 +434,24 @@
 							"urlencoded": [
 								{
 									"key": "id",
-									"value": "1",
+									"value": "6",
 									"description": "can update single record and multiple records 1 or 1,2,3,4",
 									"type": "default"
 								},
 								{
 									"key": "name",
-									"value": "updated saredon",
+									"value": "updated vicks",
 									"type": "default"
 								},
 								{
-									"key": "",
-									"value": "",
-									"type": "default",
-									"disabled": true
+									"key": "price",
+									"value": "20",
+									"type": "default"
 								}
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/inventory/getproducts/",
+							"raw": "http://127.0.0.1:8000/api/inventory/getproducts",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -468,8 +463,7 @@
 							"path": [
 								"api",
 								"inventory",
-								"getproducts",
-								""
+								"getproducts"
 							]
 						}
 					},
@@ -485,7 +479,7 @@
 							"urlencoded": [
 								{
 									"key": "id",
-									"value": "",
+									"value": "3",
 									"description": "can delete single record and multiple records 1 or 1,2,3,4",
 									"type": "default"
 								},
@@ -504,7 +498,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/inventory/getproducts/",
+							"raw": "http://127.0.0.1:8000/api/inventory/getproducts",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -516,8 +510,7 @@
 							"path": [
 								"api",
 								"inventory",
-								"getproducts",
-								""
+								"getproducts"
 							]
 						}
 					},
